@@ -53,6 +53,28 @@ if st.session_state.expenses:
     ax.set_title("Your Expenses")
     st.pyplot(fig)
 
+    
+    
     # GPT Advice
-    st.
+    st.write("### 🧠 Budgeting Advice")
+    prompt = f"My monthly income is ₹{income}. Here are my expenses:\n"
+    for _, row in df.iterrows():
+        prompt += f"- {row['Category']}: ₹{row['Amount']}\n"
+    prompt += "Please give me advice to save more and manage expenses."
+
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a financial advisor helping users save money."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        advice = response.choices[0].message.content
+        st.success(advice)
+    except Exception as e:
+        st.error(f"Error: {e}")
+else:
+    st.info("Add some expenses to get started.")
+
 
