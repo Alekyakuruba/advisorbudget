@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Set your OpenAI API key directly (no user input)
-openai.api_key = "your-api-key-here"  # 🔐 <- Replace with your actual API key
+openai.api_key = st.secrets["OPENAI_API_KEY]
 
 # Streamlit UI
 st.set_page_config(page_title="Smart Budget Advisor", layout="centered")
