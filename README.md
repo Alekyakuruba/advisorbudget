@@ -23,8 +23,6 @@ advisorbudget/
 ├── app.py                   # Streamlit app source code
 ├── requirements.txt         # Project dependencies
 ├── README.md                # Project documentation
-├── .streamlit/
-│   └── secrets.toml         # OpenAI API key (Streamlit Cloud)
 └── assets/
     └── sample_output.png    # (Optional) UI screenshot of app
 ```
