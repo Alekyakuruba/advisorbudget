@@ -45,13 +45,13 @@ if st.session_state.expenses:
     st.markdown(f"**Savings:** ₹{savings:.2f}" if savings >= 0 else f"**⚠️ Overspending by:** ₹{-savings:.2f}")
 
     # Plot chart
-    #st.write("### 📊 Expense Distribution")
-    #fig, ax = plt.subplots()
-    #df.groupby("Category")["Amount"].sum().plot(kind="bar", color="skyblue", ax=ax)
-    #ax.set_ylabel("Amount (₹)")
-    #ax.set_xlabel("Category")
-    #ax.set_title("Your Expenses")
-    #st.pyplot(fig)
+    st.write("### 📊 Expense Distribution")
+    fig, ax = plt.subplots()
+    df.groupby("Category")["Amount"].sum().plot(kind="bar", color="skyblue", ax=ax)
+    ax.set_ylabel("Amount (₹)")
+    ax.set_xlabel("Category")
+    ax.set_title("Your Expenses")
+    st.pyplot(fig)
 
     
     
