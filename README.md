@@ -19,7 +19,7 @@ Built using **Streamlit** and **Python**, this project is ideal for anyone looki
 ## 📁 Project Structure
 
 ```
-smart-budget-advisor/
+advisorbudget/
 ├── app.py                   # Streamlit app source code
 ├── requirements.txt         # Project dependencies
 ├── README.md                # Project documentation
