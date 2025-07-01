@@ -96,42 +96,6 @@ You've spent ₹26,000, which is 52% of your monthly income.
 
 ![Suggestions](assets/budget_advice.png)
 
-
-## ⚙️ How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/smart-budget-advisor.git
-cd smart-budget-advisor
-```
-
-### 2. Install Python Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add OpenAI API Key
-
-Create a `.streamlit/secrets.toml` file:
-
-```toml
-OPENAI_API_KEY = "your-openai-api-key"
-```
-
-Or set it as an environment variable:
-
-```bash
-export OPENAI_API_KEY="your-openai-api-key"
-```
-
-### 4. Run the App
-
-```bash
-streamlit run app.py
-```
-
 ---
 
 ## 🚀 Deploy on Streamlit Cloud
