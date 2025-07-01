@@ -156,7 +156,7 @@ streamlit run app.py
 
 ## 🙋‍♀️ Author & Contributions
 
-Developed by [Alekya].  
+Developed by [K.Alekya].  
 
 > Made with 💙 using OpenAI and Streamlit.
 
