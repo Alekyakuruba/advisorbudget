@@ -88,13 +88,13 @@ You've spent ₹26,000, which is 52% of your monthly income.
 
 ### 📉 Budget Breakdown
 
-![Budget Breakdown](assets/.png)
+![Budget Breakdown](assets/expenses_table.png)
 
 ---
 
 ### 💬 Financial Suggestions
 
-![Suggestions](assets/output3_suggestions.png)
+![Suggestions](assets/budget_advice.png)
 
 
 ## ⚙️ How to Run Locally
