@@ -112,7 +112,6 @@ You've spent ₹26,000, which is 52% of your monthly income.
 - **Streamlit** – Frontend web interface  
 - **OpenAI GPT-3.5 Turbo** – AI model for financial advice  
 - **Markdown** – For documentation
-
 ---
 
 
