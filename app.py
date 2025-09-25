@@ -44,14 +44,14 @@ if st.session_state.expenses:
     st.markdown(f"**Total Expenses:** ₹{total_expense:.2f}")
     st.markdown(f"**Savings:** ₹{savings:.2f}" if savings >= 0 else f"**⚠️ Overspending by:** ₹{-savings:.2f}")
 
-    # Plot chart
+   ''' # Plot chart
     st.write("### 📊 Expense Distribution")
     fig, ax = plt.subplots()
     df.groupby("Category")["Amount"].sum().plot(kind="bar", color="skyblue", ax=ax)
     ax.set_ylabel("Amount (₹)")
     ax.set_xlabel("Category")
     ax.set_title("Your Expenses")
-    st.pyplot(fig)
+    st.pyplot(fig)o'''
 
     
     
