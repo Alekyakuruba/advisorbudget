@@ -8,11 +8,11 @@ Built using **Streamlit** and **Python**, this project is ideal for anyone looki
 
 ## 📌 Features
 
-- 🧠 GPT-powered financial analysis  
-- 💬 Natural language suggestions and breakdown  
-- 📊 Smart allocation using 50/30/20 budgeting rule  
-- 🔒 No personal data stored  
-- ⚡️ Fast and user-friendly Streamlit web interface  
+-  GPT-powered financial analysis  
+-  Natural language suggestions and breakdown  
+-  Smart allocation using 50/30/20 budgeting rule  
+-  No personal data stored  
+-  Fast and user-friendly Streamlit web interface  
 
 ---
 
@@ -74,7 +74,8 @@ You've spent ₹26,000, which is 52% of your monthly income.
 
 👏 You can potentially save ₹24,000. Great work!
 ```
-
+## Live Demo
+https://advisorbudget-cibg8fhehzztj7jyduqgk6.streamlit.app/
 ---
 ## 🖼 Sample Outputs
 
@@ -119,6 +120,5 @@ You've spent ₹26,000, which is 52% of your monthly income.
 
 Developed by [K.Alekya].  
 
-> Made with 💙 using OpenAI and Streamlit.
 
 
