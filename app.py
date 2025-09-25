@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # Set your OpenAI API key directly (no user input)
 openai.api_key = st.secrets["OPENAI_API_KEY"]
